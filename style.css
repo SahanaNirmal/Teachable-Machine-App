@@ -1,0 +1,29 @@
+body{
+    background:rgb(143, 250, 214);
+    color: rgb(85, 78, 78); 
+}
+.heading{
+    width: 80%;
+    font-size: 60px;
+    font-family: 'Comforter', cursive;
+    box-shadow: 3px 3px 3px rgb(255, 255, 255);
+    background-color: mistyrose;
+}
+#camera{
+    border: 2px dashed teal;
+    width: 350px;
+    height: 300px;
+}
+.name_of_object, #result_object_name,#result_object_accuracy{
+    color: midnightblue;
+}
+.my_button{
+width:150px;
+height: 40px;
+color: rgb(0, 0, 0);
+background-color: powderblue;
+transition: transform 1s;
+}
+.my_button:hover{
+    transform: rotateX(360deg);
+}
